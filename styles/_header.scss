@@ -1,0 +1,19 @@
+.main-header {
+    @include flexCenter();
+    background-color: #e7e7e7;
+    color: $primary;
+
+    .main-button {
+        background-color: aqua;
+        margin-left: 1rem;
+
+        &:hover {
+            background-color: rgb(170, 224, 224);
+        }
+
+        &::after {
+            margin-left: 1rem;
+            content: 'conteúdo do after';
+        }
+    }
+}

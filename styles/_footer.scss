@@ -1,0 +1,16 @@
+.contato-footer {
+    @include flexCenter(column);
+    margin-top: 2rem;
+
+    background-color: $secondary;
+
+    .footer-title {
+        background-color: $footer;
+    }
+}   
+
+.extend-header {
+    @extend .main-header;
+    display: block;
+    width: 100%;
+}

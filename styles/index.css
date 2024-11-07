@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.main-header, .extend-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #e7e7e7;
+  color: blue;
+}
+.main-header .main-button, .extend-header .main-button {
+  background-color: aqua;
+  margin-left: 1rem;
+}
+.main-header .main-button:hover, .extend-header .main-button:hover {
+  background-color: rgb(170, 224, 224);
+}
+.main-header .main-button::after, .extend-header .main-button::after {
+  margin-left: 1rem;
+  content: "conteúdo do after";
+}
+
+.contato-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: rgb(178, 178, 238);
+}
+.contato-footer .footer-title {
+  background-color: rgb(129, 173, 129);
+}
+
+.extend-header {
+  display: block;
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
